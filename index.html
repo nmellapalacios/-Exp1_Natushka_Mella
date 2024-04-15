@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Grownd Zero</title>
+    <link rel="icon" href="img/logo/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body style="background-image:linear-gradient(to right ,rgb(175, 212, 61),#298368); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+  <section class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-transparent fs-6 fw-bold">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" target="_blank"><img src="img/logo/logo.png"  width="65"></a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+              <li class="nav-item dropdown text-dark bg-transparent">
+                  <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Galeria 
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="esculturas.html">Esculturas</a></li>
+                    <li><a class="dropdown-item" href="proximamente.html" target="_blank">Orfebreria</a></li>
+                    <li><a class="dropdown-item" href="pinturas.html">Pinturas</a></li>
+                    <li><a class="dropdown-item" href="proximamente.html" target="_blank">Textiles</a></li>
+
+                  </ul>
+                </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="proximamente.html" target="_blank">Artistas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="proximamente.html" target="_blank">Talleres</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>    
+          </ul>
+          <ul>
+            <form class="d-flex pt-3 ">
+              <input class="form-control m-1 rounded-pill px-1 py-1 " type="search" placeholder="Artista/Categoria" aria-label="Search">
+              <button class="btn btn-success btn-sm rounded-pill text-white fw-bold px-1 py-1" type="submit">Buscar</button>
+            </form>
+            </ul>
+
+          <ul>
+              <div class="d-flex justify-content-center align-items-center gap-2 pt-3 ">
+                <a href="#login" class="text-white fst-italic">Registrate</a>
+                <button class="btn  btn-sm rounded-pill text-white fw-bold px-1 py-1" type="submit"  style="background-color: rgb(145, 196, 35);">Mi Cuenta</button>
+              </div>
+            </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+ 
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner ">
+      <div class="carousel-item active ">
+        <img src="img/carrusel/Diseño sin título.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="titulo">Exposición de Arte </h1>
+          <p class="parrafo">Hasta 18 de Mayo 2024</p>
+          <a href="nosotros.html" class="text-white text-decoration-none px-3 py-1 rounded-pill btn-xl" style="background-color: rgb(153, 35, 196)" target="_blank" rel="noopener noreferrer">Mas información</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/carrusel/Diseño sin título (1).jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block justify-content-center">
+          <h1 class="titulo">Artistas Escultores</h1>
+          <p class="parrafo">Talleres desde Abril</p>
+          <a href="esculturas.html" class="text-white text-decoration-none px-3 py-1 rounded-pill btn-xl" style="background-color: rgb(153, 35, 196)" target="_blank" rel="noopener noreferrer">Mas información</a>
+         </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/carrusel/Diseño sin título (2).jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="titulo">Talleres de Pintura</h1>
+          <p class="parrafo">Impartidos para todas las edades</p>
+          <a href="pinturas.html" class="text-white text-decoration-none px-3 py-1 rounded-pill btn-xl" style="background-color: rgb(153, 35, 196)" target="_blank" rel="noopener noreferrer">Mas información</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/carrusel/Diseño sin título (3).jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="titulo">Tejidos</h1>
+          <p class="parrafo">Talleres gratuitos Tercera Edad</p>
+          <a href="" class="text-white text-decoration-none px-3 py-1 rounded-pill btn-xl" style="background-color: rgb(153, 35, 196)" target="_blank" rel="noopener noreferrer">Mas información</a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<div class="contenedor">
+  <div class="imagen">
+      <h1>Talleres de Escultura</h1>
+      <p>Horarios: Martes y Miércoles desde 10:30 a 13:30 hrs (Presencial)</p>
+      <img src="img/talleres/taller_escultura.jpg " alt="Esculturas">
+  </div>
+  <div class="contenido">
+    <br> 
+    <ul><h5>¿Para quién está dirigido?</h5>
+      <p>El Taller es para personas desde los 12 años en adelante, que quieran hacer figuras desde figuras de fantasía, figura humana hasta animales o figuras de animación.<p>
+        <h5> Contenido del Taller:</h5>
+        <li>Introducción a la Escultura figurativa.</li>
+        <li>Como seleccionar referencias, iluminación y ángulos. Plasticera, técnicas y virtudes.</li>
+        <li>Creación de Busto para exploración de técnica de capas, practicar la observación, expresión y cómo hacer que una escultura se vea viva.</li>
+        <li>Herramientas para hacer detalles finos y técnicas de suavizado de superficie.</li>
+        <li>Como crear moldes de silicona de caucho sin gastar tanto dinero.</li>
+        <li>Esculturas de cuerpo completo, como definir escalas, hacer esqueletos de alambre, como hacer poses dinámicas y detalles a considerar.</li>
+        <br>
+        <a href="#" class="text-white text-decoration-none px-3 py-1 rounded-pill btn-xl" style="background-color: rgb(153, 35, 196);">Más Información</a>
+    </ul>         
+  </div>
+</div>
+
+<div class="contenedor-2">
+  <div class="imagen">
+      <h1>Taller de Tejido en Telar</h1>
+      <p>Horarios: Lunes y Jueves desde 14:30 a 18:30 hrs (Presencial)</p>
+      <img src="img/talleres/taller_telares.jpg" alt="Telar" width="100px">
+  </div>
+  <div class="contenido2">   
+      <h5>¿Para quién está dirigido?</h5>
+      <p>Este Taller está dirigido a todos quienes quieran conocer y descubrir el amplio mundo del telar. ¡No es necesario tener experiencia previa! Tenemos a tu disposición telares a pedal y telares de mesa.<p>
+       <h5> Contenido del Taller:</h5>
+       <p>Nuestra metodología se basa en el aprender haciendo, y según tu experiencia o necesidades, Ale Gómez te guiará para que tus sesiones de tejido sean lo más provechosas para ti, ya sea para desarrollar un proyecto específico, o para que este tiempo en el taller sea lo más relajante y terapéutico posible. Trabajareos con distintos telares: </p>
+       <li>Telares de mesa</li>
+       <li>Telares de banda</li>
+       <li>Telares de dos pedales</li>
+       <br>
+       <a href="contacto.html" class="text-white text-decoration-none px-3 py-1 rounded-pill btn-xl" style="background-color: rgb(153, 35, 196);">Más Información</a>
+  </div>
+  <br><br><br><br>
+</div>
+
+<div class="contenedor-3">
+  <div class="imagen">
+      <h1>Taller de Fotografía</h1>
+      <p>Horarios: Jueves y Viernes desde 16:30 a 18:30 hrs (Presencial)</p>
+      <img src="img/talleres/taller_fotografia.jpeg" alt="Fotografía" width="350px">
+  </div>
+  <div class="contenido3">
+
+    <ul><h5>¿Para quién está dirigido?</h5>
+      <p>El taller va dirigido desde los 12 años para entrenar la mirada fotográfica y aprovechar el potencial de las cámaras que tenemos a mano en cualquier circunstancia. Trabajar desde una introducción teórica y actividad práctica en terreno en cada clase.<p>
+        <h5> Contenido del Taller:</h5>
+        <li> Introducción al manejo de cámara</li>
+        <li> Captación de la luz</li>
+        <li> Controles específicos de la cámara</li>
+        <li> Enfoque y compensación de exposición</li>
+        <li> La mirada fotográfica</li>
+        <li> Edición de imágenes en celular</li>
+        <br>
+        <a href="#" class="text-white text-decoration-none px-3 py-1 rounded-pill btn-xl" style="background-color: rgb(153, 35, 196);">Más Información</a>
+    </ul>         
+  </div>
+  <br><br><br><br><br><br>
+</div>
+<footer id= "footer" class="text-center text-white ">
+  <div class="redes-sociales">
+    <a href="http://www.facebook.com" class="text-white" target="_blank"><img src="img/fcbk.jpg.png" alt="Facebook" width="40" ></a>
+    <a href="https://web.whatsapp.com/" class="text-white"target="_blank"><img src="img/wsp.jpg" alt="Twitter"width="40"></a>
+    <a href="http://www.instagram.com" class="text-white"target="_blank"><img src="img/ins.jpg" alt="Instagram"width="40"></a>
+  </div>
+  <div class="copyright" >
+    <p>Av Esquina Blanca #1545, oficina 036, Tercer Piso, Maipú. <br>
+      <a href="https://www.google.com/maps">(ver en mapa)</a> <br>
+      Lunes a Viernes: 10 a 19.30
+      Sábado: 11 a 14 hrs <br>
+      Llámanos a: (+56 2) 22467207 <br>
+      Mail: ground_zero_artisticos@gmail.cl</p>
+    <p>&copy; 2024 ByTreintayseis. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
